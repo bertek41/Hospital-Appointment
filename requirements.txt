@@ -1,0 +1,8 @@
+pymongo[srv]
+mongoengine
+python-decouple
+xmltodict
+black
+requests
+pyqt5
+pyscrypt

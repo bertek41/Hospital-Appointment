@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Randevu Tarihi Ekle</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hangi Tarihler Arasında Çalışacak?</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="workDateStart">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>50</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2022</year>
+     <month>11</month>
+     <day>3</day>
+    </datetime>
+   </property>
+   <property name="maximumDateTime">
+    <datetime>
+     <hour>23</hour>
+     <minute>59</minute>
+     <second>59</second>
+     <year>2099</year>
+     <month>12</month>
+     <day>31</day>
+    </datetime>
+   </property>
+   <property name="minimumDateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2022</year>
+     <month>11</month>
+     <day>3</day>
+    </datetime>
+   </property>
+   <property name="displayFormat">
+    <string>dd.MM.yyyy</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="workDateEnd">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>50</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2022</year>
+     <month>11</month>
+     <day>3</day>
+    </datetime>
+   </property>
+   <property name="maximumDateTime">
+    <datetime>
+     <hour>23</hour>
+     <minute>59</minute>
+     <second>59</second>
+     <year>2099</year>
+     <month>12</month>
+     <day>31</day>
+    </datetime>
+   </property>
+   <property name="minimumDateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2022</year>
+     <month>11</month>
+     <day>3</day>
+    </datetime>
+   </property>
+   <property name="displayFormat">
+    <string>dd.MM.yyyy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>50</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="workTimeStart">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>120</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>8</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2022</year>
+     <month>11</month>
+     <day>3</day>
+    </datetime>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="workTimeEnd">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>17</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2022</year>
+     <month>11</month>
+     <day>3</day>
+    </datetime>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>90</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hangi Saatler Arasında Çalışacak?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>120</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="breakTimeStart">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>12</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2022</year>
+     <month>11</month>
+     <day>3</day>
+    </datetime>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>190</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>:</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="breakTimeEnd">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>190</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>13</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2022</year>
+     <month>11</month>
+     <day>3</day>
+    </datetime>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>160</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hangi Saatler Arasında Mola Verecek?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Randevu Süresi Kaç Dakika Olacak?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Randevu Arası Molası Kaç Dakika Olacak?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>340</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Günlük Kaç Randevu Alacak?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ekle</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="appointmentTime">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>240</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>199</number>
+   </property>
+   <property name="value">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="appointmentBreakTime">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>290</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>199</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="dailyAppointmentLimit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>340</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>199</number>
+   </property>
+   <property name="value">
+    <number>100</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

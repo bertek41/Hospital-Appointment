@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Doktorlar</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>560</width>
+      <height>339</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>560</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDoktor">
+    <property name="title">
+     <string>Doktor</string>
+    </property>
+    <addaction name="actionEkle"/>
+    <addaction name="separator"/>
+    <addaction name="actionDuzenle"/>
+    <addaction name="actionRandevu_Tarihi_Ekle"/>
+    <addaction name="actionViewAppointments"/>
+    <addaction name="actionSil"/>
+   </widget>
+   <addaction name="menuDoktor"/>
+  </widget>
+  <action name="actionEkle">
+   <property name="text">
+    <string>Ekle</string>
+   </property>
+  </action>
+  <action name="actionDuzenle">
+   <property name="text">
+    <string>Düzenle</string>
+   </property>
+  </action>
+  <action name="actionSil">
+   <property name="text">
+    <string>Sil</string>
+   </property>
+  </action>
+  <action name="actionEkle">
+   <property name="text">
+    <string>Ekle</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionDuzenle">
+   <property name="text">
+    <string>Düzenle</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionRandevu_Tarihi_Ekle">
+   <property name="text">
+    <string>Randevu Tarihi Ekle</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionSil">
+   <property name="text">
+    <string>Sil</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionViewAppointments">
+   <property name="text">
+    <string>Randevuları Görüntüle</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
